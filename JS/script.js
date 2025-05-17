@@ -30,3 +30,6 @@ function connecter() {
         alert('Email ou mot de passe incorrect.');
     }
 }
+function logout() {
+    window.location.href = "index.html";
+}
