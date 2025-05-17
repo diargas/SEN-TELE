@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h2>Inscription</h2>
+    <form onsubmit="inscrire(); return false;">
+        <input type="text" id="nom" placeholder="Nom" required><br>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="mdp" placeholder="Mot de passe" required><br>
+        <input type="number" id="age" placeholder="Âge" required min="1"><br>
+        <button type="submit">S'inscrire</button>
+    </form>
+    <p>Déjà un compte ? <a href="connexion.html">Connectez-vous</a></p>
+    <script src="JS/script.js"></script>
+</body>
+</html>
